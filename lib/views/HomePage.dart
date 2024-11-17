@@ -1,10 +1,10 @@
 
 
+import 'package:Knovator/views/showUserDetails.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:knova/views/showUserDetails.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 
@@ -198,14 +198,7 @@ class _HomePageState extends State<HomePage> {
                   left: size.width * 0.055),
               child: Row(
                 children: [
-                  Container(
-                    width: size.height * 0.07,
-                    height: size.height * 0.07,
-                    decoration: const BoxDecoration(
-                      color: Colors.white,
-                      shape: BoxShape.circle,
-                    ),
-                  ),
+
                   SizedBox(width: size.width * 0.03),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,

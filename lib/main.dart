@@ -1,6 +1,6 @@
+import 'package:Knovator/views/internetConnectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:knova/views/internetConnectivity.dart';
 
 
 void main() {
